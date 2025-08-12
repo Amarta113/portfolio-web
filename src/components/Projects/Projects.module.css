@@ -1,0 +1,39 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.projects {
+  margin-top: 55px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: stretch;
+  gap: 32px;
+  width: 100%;
+  max-width: 3000px;
+  margin-inline: auto;
+}
+
+.projectsSection {
+  padding: 60px 80px;
+  background-color: #3c2a92; /* Match your section purple */
+  color: white;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 800px;
+}

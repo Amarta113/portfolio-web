@@ -1,0 +1,10 @@
+{
+  "analytics": {
+    "enabled": true
+  },
+  "functions": {
+    "app/api/analytics/**/*.js": {
+      "maxDuration": 10
+    }
+  }
+}

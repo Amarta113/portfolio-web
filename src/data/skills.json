@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "FastAPI",
+    "imageSrc": "skills/fastapi.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Streamlit",
+    "imageSrc": "skills/streamlit.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "ChromaDB",
+    "imageSrc": "skills/chromadb.png"
+  },
+  {
+    "title": "OpenAI API",
+    "imageSrc": "skills/openai.png"
+  },
+  {
+    "title": "LangChain",
+    "imageSrc": "skills/langchain.png"
+  },
+  {
+    "title": "Hugging Face",
+    "imageSrc": "skills/huggingface.png"
+  },
+  {
+    "title": "Git & GitHub",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  }
+]

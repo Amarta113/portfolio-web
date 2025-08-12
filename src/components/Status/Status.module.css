@@ -1,0 +1,128 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.statusCard {
+  background-color: rgb(236, 155, 147);
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  width: 114%;
+  margin: 0 auto;
+}
+
+.statusHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  -webkit-text-fill-color: black;
+}
+
+.mood {
+  font-size: 3rem;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.date {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.statusContent {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 24px;
+  -webkit-text-fill-color: black;
+}
+
+.statusItem {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.statusItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.statusItem h3 {
+  margin: 0 0 12px 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ba6e6e;
+}
+
+.statusItem p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.statusFooter {
+  text-align: center;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  -webkit-text-fill-color: rgba(67, 37, 37, 0.868);
+}
+
+.statusFooter small {
+  color: rgba(19, 4, 4, 0.7);
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .statusCard {
+    padding: 24px;
+    margin: 0 16px;
+  }
+  
+  .statusHeader {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .mood {
+    font-size: 2.5rem;
+  }
+  
+  .statusContent {
+    gap: 16px;
+  }
+  
+  .statusItem {
+    padding: 16px;
+  }
+}
