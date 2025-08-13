@@ -4,11 +4,11 @@
   position: relative;
   background-color: rgba(116, 195, 209, 0.755);
   border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
+  padding: 40px;
+  margin-top: 100px;
   z-index: 1;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 15%;
 }
 
 .title {
@@ -17,6 +17,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 33px;
 }
 
 .content {
@@ -33,7 +34,7 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
 }
 
 .aboutItem {
@@ -42,7 +43,7 @@
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 25px;
+  padding: 20px;
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
@@ -58,12 +59,14 @@
 }
 
 .aboutItem h3 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
+  margin-bottom: 12px;
 }
 
 .aboutItem p {
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 830px) {
