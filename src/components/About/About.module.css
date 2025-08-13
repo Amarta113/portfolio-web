@@ -8,14 +8,14 @@
   margin-top: 100px;
   z-index: 1;
   margin-left: 10%;
-  margin-right: 15%;
+  margin-right: 10%;
 }
 
 .title {
   color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 33px;
 }
@@ -23,18 +23,22 @@
 .content {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+  gap: 32px;
 }
 
 .aboutImage {
-  width: 35%;
+  width: 45%;
+  align-self: flex-start;
+  display: block;
+  border-radius: 25px;
 }
 
 .aboutItems {
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
 }
 
 .aboutItem {
