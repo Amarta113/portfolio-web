@@ -1,12 +1,42 @@
-# React + Vite
+# My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hey there! 👋 I’m Amarta Waghani, an aspiring AI/ML developer passionate about building intelligent, accessible, and impactful applications.
+This portfolio is my digital home, a place to showcase my projects, skills, and journey in tech.
 
-Currently, two official plugins are available:
+## Live Website:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **About**: Quick introduction and my current tech stack
+- **Project**: Display of technical projects with detailed descriptions.
+- **Skills Section**: Visual representation of technical skills and technologies.
+- **Contact Information**: Easy ways to get in touch.
+- **Professional Status**: What I’m currently working on, updated in real time.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # React components
+│   ├── About/          # About section component
+│   ├── Contact/        # Contact information
+│   ├── Hero/           # Hero/landing section
+│   ├── Navbar/         # Navigation component
+│   ├── Projects/       # Project showcase
+│   ├── Skills/         # Skills display
+│   └── Status/         # Professional status
+├── data/               # Static data files
+│   ├── projects.json   # Project information
+│   └── skills.json     # Skills and technologies
+├── App.jsx             # Main application component
+├── main.jsx            # Application entry point
+└── index.css           # Global styles
+```
+
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+
