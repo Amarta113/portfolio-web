@@ -3,7 +3,7 @@
 Hey there! 👋 I’m Amarta Waghani, an aspiring AI/ML developer passionate about building intelligent, accessible, and impactful applications.
 This portfolio is my digital home, a place to showcase my projects, skills, and journey in tech.
 
-## Live Website:
+## Live Website: https://amarta-portfolio-web.vercel.app/
 
 ## Features
 - **About**: Quick introduction and my current tech stack
