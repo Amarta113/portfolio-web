@@ -3,7 +3,7 @@ import styles from "./Status.module.css";
 
 export const Status = () => {
   const [status, setStatus] = useState({
-    statement: "Learning React Hooks and State Management - Understanding the difference between useEffect and useMemo",
+    statement: "Exploring solutions in depth by reading my first research paper.",
     mood: "🤔" // You can change this emoji daily
   });
 
