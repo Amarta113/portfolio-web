@@ -4,7 +4,7 @@
     "imageSrc": "projects/rag-thumbnail.png",
     "description": "Developed a Retrieval-Augmented Generation (RAG) chatbot entirely from scratch, implementing custom embeddings, a vector store, and LLM integration without LangChain. Currently experimenting with different embedding models to enhance accuracy and performance. Open to building similar solutions contact me for collaboration.",
     "skills": ["Python", "FastAPI", "ChromaDB", "Streamlit", "Groq", "Docker"],
-    "demo": "https://github.com/yourusername/rag-from-scratch",
+    "demo": "https://github.com/Amarta113/RAG-from-Scratch",
     "source": "https://youtu.be/attbX563uxU",
     "video": "https://www.youtube.com/embed/attbX563uxU?vq=hd1080&rel=0&modestbranding=1&showinfo=0"
   }

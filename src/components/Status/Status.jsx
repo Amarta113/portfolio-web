@@ -3,8 +3,8 @@ import styles from "./Status.module.css";
 
 export const Status = () => {
   const [status, setStatus] = useState({
-    statement: "Exploring solutions in depth by reading my first research paper.",
-    mood: "🤔" // You can change this emoji daily
+    statement: "Today is Pakistan's Independence Day. I feel proud of where I am, standing with my nation. As part of the nation's youth, I believe it is now my responsibility to contribute to its progress. ",
+    mood: "🇵🇰"
   });
 
   const updateStatus = (field, value) => {
