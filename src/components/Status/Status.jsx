@@ -3,8 +3,8 @@ import styles from "./Status.module.css";
 
 export const Status = () => {
   const [status, setStatus] = useState({
-    statement: "Today is Pakistan's Independence Day. I feel proud of where I am, standing with my nation. As part of the nation's youth, I believe it is now my responsibility to contribute to its progress. ",
-    mood: "🇵🇰"
+    statement: "Alright, things are not working as I thought.... But there is no anyway to stop...",
+    mood: "🤔"
   });
 
   const updateStatus = (field, value) => {
