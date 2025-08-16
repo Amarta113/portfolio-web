@@ -3,7 +3,7 @@ import styles from "./Status.module.css";
 
 export const Status = () => {
   const [status, setStatus] = useState({
-    statement: "Alright, things are not working as I thought.... But there is no anyway to stop...",
+    statement: "Chatgpt give me a new title based on my chat history...The Relentless Maker...",
     mood: "🤔"
   });
 
