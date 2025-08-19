@@ -3,7 +3,7 @@ import styles from "./Status.module.css";
 
 export const Status = () => {
   const [status, setStatus] = useState({
-    statement: "So not getting result, still keep trying...",
+    statement: "I explore new programming language, new tech stack to fill the gaps when things don't make sense...",
     mood: "🤔"
   });
 
