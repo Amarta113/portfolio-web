@@ -3,7 +3,7 @@ import styles from "./Status.module.css";
 
 export const Status = () => {
   const [status, setStatus] = useState({
-    statement: "Problems are part of life... Solving them is an art of life...",
+    statement: "I’m learning React to design better UIs for AI apps. Today I practiced states and the ternary operator, and I’ve explored the spread operator.  I’m also preparing to do open source contribution. It’s a bit challenging, but I’m making progress.",
     mood: "🤔"
   });
 

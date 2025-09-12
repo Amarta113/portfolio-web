@@ -23,12 +23,12 @@
 .content {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 32px;
 }
 
 .aboutImage {
-  width: 45%;
+  width: 35%;
   align-self: flex-start;
   display: block;
   border-radius: 25px;
@@ -38,6 +38,7 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
+  justify-content: space-between; 
   gap: 10px;
 }
 
@@ -72,6 +73,7 @@
   font-size: 18px;
   line-height: 1.5;
 }
+
 
 @media screen and (max-width: 830px) {
   .container {
