@@ -7,6 +7,16 @@
     "demo": "https://github.com/Amarta113/RAG-from-Scratch",
     "source": "https://youtu.be/attbX563uxU",
     "video": "https://www.youtube.com/embed/attbX563uxU?vq=hd1080&rel=0&modestbranding=1&showinfo=0"
+  },
+
+   {
+    "title": "Trippy - Travel & Tourism Website",
+    "imageSrc": "",
+    "description": "A modern and responsive travel & tourism website built with React, showcasing stunning destinations, recent trips, and essential travel information. Features include a dynamic hero section, destination galleries, trip showcases, and fully responsive pages such as Home, About, Services, and Contact. The UI is clean and visually appealing, designed with modular CSS for maintainability. This project highlights React Router-based navigation, reusable components, and a smooth browsing experience.",
+    "skills": ["React","React Router DOM","Vite","JavaScript","CSS3","GitHub Pages"],
+    "demo": "https://amarta113.github.io/Trippy/",
+    "source": "https://youtu.be/lCWdbm3JPbM",
+    "video": "https://www.youtube.com/embed/lCWdbm3JPbM?vq=hd1080&rel=0&modestbranding=1&showinfo=0"
   }
 ]
 
